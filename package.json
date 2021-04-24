@@ -1,0 +1,33 @@
+{
+  "name": "crud-server",
+  "version": "1.0.0",
+  "description": "This is a simple rest api project to demonstrate the REST api using nodejs, express and mongodb.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssjsatish/crud-server.git"
+  },
+  "keywords": [
+    "REST",
+    "Api",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Satish Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssjsatish/crud-server/issues"
+  },
+  "homepage": "https://github.com/ssjsatish/crud-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  }
+}
